@@ -1,0 +1,15 @@
+/* Theme system ported verbatim from the mockup
+   (_bmad-output/brainstorm-llm-visual-explainer/hybrid.html) — tokens only. */
+
+:root[data-theme="dark"]{
+  --bg:#0b1020; --bg2:#0e1529; --panel:#121b36; --panel2:#0f1730;
+  --ink:#e8ecff; --dim:#8b93b8; --line:#26304f;
+  --acc1:#6ee7ff; --acc2:#a78bfa; --acc3:#f472b6; --good:#34d399; --warn:#fbbf24;
+  --chip:#1a2547; --glow:0 0 18px rgba(110,231,255,.22);
+}
+:root[data-theme="light"]{
+  --bg:#f4f2ec; --bg2:#fbfaf6; --panel:#ffffff; --panel2:#f6f4ee;
+  --ink:#1c2130; --dim:#6a7185; --line:#dcd8cc;
+  --acc1:#0891b2; --acc2:#7c3aed; --acc3:#db2777; --good:#059669; --warn:#d97706;
+  --chip:#eceae2; --glow:0 2px 14px rgba(0,0,0,.10);
+}

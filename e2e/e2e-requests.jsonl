@@ -1,0 +1,17 @@
+{"ts": 1794461167.4422526, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.06523, "latency_s": 0.172512, "tok_s": 34.78}
+{"ts": 1794461347.9492307, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.00778, "latency_s": 0.091422, "tok_s": 65.63}
+{"ts": 1794461554.176667, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.00837, "latency_s": 0.098072, "tok_s": 61.179}
+{"ts": 1794461633.698142, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.006205, "latency_s": 0.087309, "tok_s": 68.722}
+{"ts": 1794461771.2894888, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.007091, "latency_s": 0.083726, "tok_s": 71.662}
+{"ts": 1794461777.312747, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.007387, "latency_s": 0.094017, "tok_s": 63.818}
+{"ts": 1794461790.0320485, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.009064, "latency_s": 0.112291, "tok_s": 53.433}
+{"ts": 1794461795.4123623, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.007326, "latency_s": 0.095126, "tok_s": 63.074}
+{"ts": 1794461799.606401, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.007816, "latency_s": 0.086247, "tok_s": 69.568}
+{"ts": 1794461805.0208368, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.00697, "latency_s": 0.087794, "tok_s": 68.342}
+{"ts": 1794464072.9998484, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.035275, "latency_s": 0.139409, "tok_s": 43.039}
+{"ts": 1794464078.9681098, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.01058, "latency_s": 0.139473, "tok_s": 43.019}
+{"ts": 1794464083.1766484, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.007835, "latency_s": 0.093544, "tok_s": 64.141}
+{"ts": 1794464089.1260936, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 6, "ttft_s": 0.009534, "latency_s": 0.116262, "tok_s": 51.607}
+{"ts": 1794507737.633382, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 128, "ttft_s": 0.044429, "latency_s": 1.548032, "tok_s": 82.686}
+{"ts": 1794507926.1792665, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 128, "ttft_s": 0.008355, "latency_s": 1.523058, "tok_s": 84.041}
+{"ts": 1794507958.9478567, "model": "tiny", "status": "ok", "prompt_len": 5, "n_tokens": 128, "ttft_s": 0.004622, "latency_s": 1.428027, "tok_s": 89.634}
