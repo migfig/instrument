@@ -1,15 +1,61 @@
-/* Theme system ported verbatim from the mockup
-   (_bmad-output/brainstorm-llm-visual-explainer/hybrid.html) — tokens only. */
-
-:root[data-theme="dark"]{
-  --bg:#0b1020; --bg2:#0e1529; --panel:#121b36; --panel2:#0f1730;
-  --ink:#e8ecff; --dim:#8b93b8; --line:#26304f;
-  --acc1:#6ee7ff; --acc2:#a78bfa; --acc3:#f472b6; --good:#34d399; --warn:#fbbf24;
-  --chip:#1a2547; --glow:0 0 18px rgba(110,231,255,.22);
+:root {
+  --font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
 }
-:root[data-theme="light"]{
-  --bg:#f4f2ec; --bg2:#fbfaf6; --panel:#ffffff; --panel2:#f6f4ee;
-  --ink:#1c2130; --dim:#6a7185; --line:#dcd8cc;
-  --acc1:#0891b2; --acc2:#7c3aed; --acc3:#db2777; --good:#059669; --warn:#d97706;
-  --chip:#eceae2; --glow:0 2px 14px rgba(0,0,0,.10);
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #070a12;
+  --bg2: #0b101b;
+  --panel: #101726;
+  --panel2: #161f33;
+  --ink: #f1f5f9;
+  --ink2: #cbd5e1;
+  --dim: #94a3b8;
+  --line: #1f2b42;
+  --line-strong: #334155;
+  --acc1: #22d3ee;
+  --acc1-soft: rgba(34, 211, 238, 0.14);
+  --acc2: #f59e0b;
+  --acc2-soft: rgba(245, 158, 11, 0.15);
+  --acc3: #a78bfa;
+  --acc3-soft: rgba(167, 139, 250, 0.15);
+  --good: #34d399;
+  --warn: #fbbf24;
+  --err: #f87171;
+  --cta-bg: #22d3ee;
+  --cta-ink: #06121e;
+  --cta-hover: #38bdf8;
+  --scrim: rgba(4, 7, 15, 0.72);
+  --shadow-overlay: 0 20px 50px rgba(0, 0, 0, 0.55);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f8fafc;
+  --bg2: #f1f5f9;
+  --panel: #ffffff;
+  --panel2: #f8fafc;
+  --ink: #0f172a;
+  --ink2: #334155;
+  --dim: #475569;
+  --line: #e2e8f0;
+  --line-strong: #cbd5e1;
+  --acc1: #0369a1;
+  --acc1-soft: rgba(3, 105, 161, 0.10);
+  --acc2: #b45309;
+  --acc2-soft: rgba(180, 83, 9, 0.10);
+  --acc3: #6d28d9;
+  --acc3-soft: rgba(109, 40, 217, 0.10);
+  --good: #047857;
+  --warn: #b45309;
+  --err: #b91c1c;
+  --cta-bg: #0f172a;
+  --cta-ink: #ffffff;
+  --cta-hover: #1e293b;
+  --scrim: rgba(15, 23, 42, 0.42);
+  --shadow-overlay: 0 20px 44px rgba(15, 23, 42, 0.14);
 }
